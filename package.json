@@ -1,0 +1,35 @@
+{
+  "name": "web",
+  "version": "0.0.21",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "t": "tailwindcss build src/assets/tailwind.css -o output.css",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "copy-to-clipboard": "^3.3.1",
+    "deepmerge": "^4.2.2",
+    "fast-glob": "^3.2.4",
+    "font-awesome": "^4.7.0",
+    "screenfull": "^5.0.2",
+    "simple-peer": "^9.9.3",
+    "sweetalert2": "^10.14.0",
+    "vue": "^2.6.11",
+    "vue-flatpickr-component": "8",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-multiselect": "^2.1.6"
+  },
+  "devDependencies": {
+    "6du-livescript-loader": "^0.0.3",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "chokidar": "^3.4.3",
+    "livescript": "^1.6.0",
+    "vue-cli-plugin-livescript": "0.0.10",
+    "vue-cli-plugin-pug": "~1.0.7",
+    "vue-cli-plugin-tailwind": "~1.2.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
